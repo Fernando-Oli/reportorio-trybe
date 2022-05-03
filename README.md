@@ -20,4 +20,4 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 [x] 2-1 - Criando repositório
 
-[ ] 2-2 -
+[ ] 2-2 - Pull requests
