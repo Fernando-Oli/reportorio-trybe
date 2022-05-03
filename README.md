@@ -6,7 +6,7 @@
 
 ##### A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aconselhar e direcionar novos profissionais para o mercado de trabalho em Desenvolvimento Web. Porém a preparação para o mercado de trabalho não são somente as "hard skills", mas também as "soft skills", que vão de aprender a se comunicar, se entender, interagir em equipe, entre outras habilidades valiosas ao ambiente de trabalho e ao mercado.
 
-![](/home/fernando/Downloads/Web.jpg)
+![Web](https://user-images.githubusercontent.com/104437536/166399484-8688d113-4e77-4337-ba18-c8145ae494b4.jpg)
 
 ### Fundamentos do Desenvolvimento na Web
 
