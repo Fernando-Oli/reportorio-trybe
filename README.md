@@ -1,6 +1,6 @@
 ﻿# Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Fernando Oliveira](www.linkedin.com/in/fernando1806) enquanto estudante na Trybe.
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Fernando Oliveira](https://www.linkedin.com/in/fernando1806) enquanto estudante na Trybe.
 
 ## "Construímos nosso currículo com base no que o mercado de trabalho busca em profissionais de tecnologia."
 
