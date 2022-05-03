@@ -1,6 +1,6 @@
 ﻿# Trybe
 
-###### Este repositório contém todas as atividades de aprendizagem desenvolvidas por Fernando Oliveira_[Linkedin](www.linkedin.com/in/fernando1806)_ enquanto estudante na Trybe.
+###### Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Fernando Oliveira] (www.linkedin.com/in/fernando1806) enquanto estudante na Trybe.
 
 ##### "Construímos nosso currículo com base no que o mercado de trabalho busca em profissionais de tecnologia."
 
@@ -8,7 +8,7 @@
 
 ![Web](https://user-images.githubusercontent.com/104437536/166399484-8688d113-4e77-4337-ba18-c8145ae494b4.jpg)
 
-### Fundamentos do Desenvolvimento na Web
+### Fundamentos do Desenvolvimento na Web :ballot_box_with_check:
 
 #### Bloco 1: Introdução – Unix & Shell
 
