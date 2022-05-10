@@ -1,0 +1,47 @@
+ol{
+  background-color: yellow;
+}
+
+ol li:nth-child(even){
+  color: green;
+}
+ol li:nth-child(odd){
+  text-transform: uppercase;
+}
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
+  font-size: 40px;
+  border: 1px solid black;
+}
+li{
+  font-size: 20px;
+}
+li em{
+  font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6{
+  color: red; 
+}
+
+.blue li:nth-of-type(1), .blue li:nth-of-type(2), .blue li:nth-of-type(3){
+  color: blue;
+
+}
+.pink{
+  background-color: pink;
+}
+#yellow:hover{
+  background-color: yellow;
+  font-weight: bold;
+}
+.green:hover{
+  background-color: green;
+  font-weight: bold;
+}
+#black:hover{
+  background-color: black;
+  font-weight: bold;
+}
+#orange:hover{
+  background-color: orange;
+  font-weight: bold;
+}
