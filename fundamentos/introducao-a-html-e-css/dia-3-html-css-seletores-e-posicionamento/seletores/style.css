@@ -1,18 +1,24 @@
 div:hover{
-  border: 5px solid rgb(133, 10, 10)
+  border: 5px solid black;
 }
 div:nth-of-type(1){
   background-color: yellow;
+  font-style: italic;
 }
 div:nth-of-type(2) {
   background-color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 div:nth-of-type(3){
   background-color: red;
+  font-size: 24px;
+  font-style: italic;
 }
 div:nth-of-type(4){
   background-color: rgb(73, 42, 9);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 div:nth-last-of-type(1){
   background-color: crimson;
+  font-style: italic;
 }
