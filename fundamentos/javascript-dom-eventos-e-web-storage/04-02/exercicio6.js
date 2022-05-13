@@ -1,19 +1,11 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let dois = 2
+let numbers = [2, 2, 2, 2, 76, 8, 100, 2, 34, 2];
+let dois = 0
 
-for(let x = 1; x < numbers.length; x++)
+for(let x = 0; x < numbers.length; x++)
     if(numbers[x]%2!==0){
-        console.log(numbers[x])
+        dois = (numbers[x])
+        console.log(dois)
 }
-
-/*
-numbers.forEach((element) => {
-    if(element%2!==0){
-        console.log(element)
-    } else if(element%2==0){
-        let dois =+ element
-    } else{
-
-    }
-})
-*/
+if(dois == 0){
+    console.log('nenhum valor ímpar encontrado')
+}
