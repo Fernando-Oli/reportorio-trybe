@@ -13,7 +13,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 #### Bloco 1: Introdução – Unix & Shell
 
-[x] 1-3 Unix & Shell - Part 1
+- [x] 1-3 Unix & Shell - Part 1
 
 [x] 1-4 Unix & Shell - Part 2
 
