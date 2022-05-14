@@ -19,4 +19,4 @@ head - mostra as primeiras linhas
 tail - mostras as últimas linhas
 grep - procura por palavras dentro de arquivos
 wc - conta linhas, palavras e caracteres.
-* - coringa
+"*" - coringa
