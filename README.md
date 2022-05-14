@@ -21,4 +21,30 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 [x] 2-1 - Criando repositório
 
-[ ] 2-2 - Pull requests
+[x] 2-2 - Pull requests
+
+[x] 2-3 - Internet - Entendendo como ela funciona
+
+[x] 3-1 - HTML & CSS - Estruturas de página
+
+[x] 3-2 - HTML & CSS - Primeiros passos CSS
+
+[x] 3-3 - Seletores e posicionamento
+
+[x] 3-4 - HTML Semântico
+
+[x] 3-5 - Projeto Lessons Learned
+
+#### Bloco 4: Javascript e lógica de programação
+
+[x] 4-1 - Javascript - Primeiros passos
+
+[x] 4-2 Array e loop For
+
+[ ] 4-3 Lógica de programaçãoe e Algoritmos
+
+[ ] 4-4 Objetos e funções
+
+[ ] 4-5 Projeto Playground Functions
+
+
