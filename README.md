@@ -25,6 +25,8 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 [x] 2-3 - Internet - Entendendo como ela funciona
 
+#### Bloco 3: Introddução a HTML & CSS
+
 [x] 3-1 - HTML & CSS - Estruturas de página
 
 [x] 3-2 - HTML & CSS - Primeiros passos CSS
