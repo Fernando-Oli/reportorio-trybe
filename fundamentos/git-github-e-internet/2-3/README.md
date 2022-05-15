@@ -13,8 +13,12 @@ ISP :heavy_minus_sign: Internet Service Provider, como a Claro.
 
 DNS :heavy_minus_sign: Domain Name System, relaciona o endereço nominal com o IP. É o responsável por localizar e traduzir a números as buscas por sites que digitamos no cliente.
 
-Port Number → Um número 16 bits que identifica uma porta no server e está sempre associado a um IP. Ele é uma forma de identificar um processo no server.
+Port Number :heavy_minus_sign: Um número 16 bits que identifica uma porta no server e está sempre associado a um IP. Ele é uma forma de identificar um processo no server.
 
-Host → é qualquer dispositivo conectado a internet. Cada host tem um IP único, o host no exemplo é o Google, é o servidor web que estamos buscando.
+Host :heavy_minus_sign: é qualquer dispositivo conectado a internet. Cada host tem um IP único, o host no exemplo é o Google, é o servidor web que estamos buscando.
+
+HTTP :heavy_minus_sign: Hyper-text Transfer Protocol, utilizado para a comunicação entre navegadores e servidores e servidores na internet. Porta 80
+
+URL :heavy_minus_sign: Uniform Resource Locators. Identifica um recurso WEB específico. Ela identifica o protocolo que será utilizado para comunicar com o server(https), o nome do host(google.com) e onde queremos adentrar.
 
 
