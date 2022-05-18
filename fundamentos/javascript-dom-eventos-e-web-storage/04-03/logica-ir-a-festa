@@ -10,15 +10,19 @@ Abrir o armário
 if(a roupa vermelha ficar melhor que a azul){
 Vestir a azul com a calça preta
 E relógio prata}
-else if{a camisa azul ficar melhor que a vermelha{
+else if(a camisa azul ficar melhor que a vermelha){
 Vestir o short azul e relógio cinza}
 
 acessorios += sapato preto.
 
-function (verificar limpeza da roupa e acessorios)
+function (limpeza){
+    verificar limpeza da roupa e acessorios
+}
 
-function passar(caso a roupa escolhida estiver amassada)
-exec function passar roupa
+function passar(passar){
+    if(caso a roupa escolhida estiver amassada)
+    Passar roupa
+}
 
 if(roupas e acessorios estiverem escolhidos e em bom estado){
 sair de casa}
