@@ -100,20 +100,46 @@
       //Essa lista deve ser filha do section criado no passo 6;
       let numeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
       let lista = document.createElement('ul')
+      lista.id = 'lista'
       thirdSection.appendChild(lista)
       for(let x = 0; x < 10; x+=1){
         let lis = document.createElement('li')
         lis.innerText += numeros[x]
         lista.appendChild(lis)
       }
+      
      // 9.🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
-
      for(let y =0; y < 3; y+=1){
-       let titulo = document.createElement('h3')
-       titulo.style.background = 'red'
-       titulo.innerText = 'titulo'
-       main.appendChild(titulo)
+       let titulo1 = document.createElement('h3')
+       titulo1.innerText = 'titulo'
+       titulo1.className = 'description'
+       main.appendChild(titulo1)
      }
+     // 11.🚀 Adicione a classe title na tag h1 criada;
+     titulo.className = 'title'
+
+     // 12.🚀 Adicione a classe description nas 3 tags h3 criadas;
+     //linha 114
+
+     // 13.🚀 Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+     main.removeChild(secondSection)
+
+     // 14.🚀 Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, 
+     //basta configurar o margin-right: auto da section;
+     thirdSection.style.marginRight = 'auto'
+
+     // 15.🚀 Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) 
+     //para a cor verde;
+     body.style.background = 'green'
+
+     // 16.🚀 Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
+     let lasta = document.getElementById('lista')
+     let liss = lasta.lastElementChild
+     lasta.removeChild(liss)
+
+     let last = document.getElementById('lista')
+     let li = lasta.lastElementChild
+     lasta.removeChild(li)
     </script>
   </body>
 </html>
