@@ -1,0 +1,16 @@
+.ieads {
+    resize:none;
+    height: 200px;
+}
+label {
+    padding-top: 20px;
+}
+.form-check-input {
+    margin-top: 23px;
+}
+body{
+    background-color: #333333;
+}
+#local {
+    padding-top: 0;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trybe Trip</title>
+    <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="container text-warning" >
+      <h1 class="display-1 text-center">Trybe Trip</h1>
+    </header>
+    <main class="container text-center text-warning mb-3">
+      <form action="" method="get">
+          <div class="mb-3">
+            <label class = "form-label lead"for="name">Nome:</label>
+            <input class = "form-control" type="text" name="nome" min="10" id="name"/>
+            <label class = "form-label lead" for="email">Email:</label> 
+            <input class = "form-control" type="text" name="email" min="10" max="50" id="email">
+        </div>
+
+      <div id="local">
+        <h4>Qual local deveríamos ir nessa Trybe Trip?</h4>
+        <label class="form-check-label" for="opcao-1">Cidade</label>
+        <input class="form-check-input" type="radio" name="options" id="opcao-1" />
+        <label class="form-check-label" for="opcao-2">Campo</label>
+        <input class="form-check-input" type="radio" name="options" id="opcao-2" />
+        <label class="form-check-label" for="opcao-3">Praia</label>
+        <input class="form-check-input" type="radio" name="options" id="opcao-3" />
+        <label class="form-check-label" for="opcao-4">Montanhas</label>
+        <input class="form-check-input" type="radio" name="options" id="opcao-4" />
+      </div>
+
+      <div>
+        <label id="textarea-text"for="text-area">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+        <textarea class="form-control ieads" name="viagem" id="text-area"></textarea>
+
+      <div>
+        <label for="idade">Qual a melhor data para realizar a sua viagem?</label><br><br>
+        <input type="date" name="idade" id="idade"/>
+      </div>
+
+      <div>
+        <label class="form-check-label" for="termo-1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <input class="form-check-input"   type="checkbox" name="termo-1" id="termo-1" />
+        <label class="form-check-label" for="termo-2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <input class="form-check-input"  type="checkbox" name="termo-2" id="termo-2" required/>
+      </div><br>
+
+      <div class="btn-group" id="div-btn">
+          <button class="btn btn-primary" type="submit" id="btn-send">Enviar</button>
+          <button class="btn btn-warning" type="reset" id="btn-erase">Apagar</button>
+      </div>
+
+    </form>
+  </main>
+    <script src="script1.js"></script>
+  </body>
+</html>

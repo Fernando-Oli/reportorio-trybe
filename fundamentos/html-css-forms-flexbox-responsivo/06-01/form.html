@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trybe Trip</title>
+  </head>
+  <body>
+    <header>
+      <h1>Trybe Trip</h1>
+    </header>
+    <form action="" method="get">
+
+      <div class="div-info">
+        <label for="name">Nome:<input type="text" name="nome" min="10" id="name"/></label><br>
+        <br>
+        <label for="email">Email: <input type="text" name="email" min="10" max="50" id="email"/></label>
+      </div>
+      <br>
+
+      <div class="div-option">
+        <label for="opcao-1"><input type="radio" name="options" id="opcao-1" />Cidade</label>
+        <label for="opcao-2"><input type="radio" name="options" id="opcao-2" />Campo</label>
+        <label for="opcao-3"><input type="radio" name="options" id="opcao-3" />Praia</label>
+        <label for="opcao-4"><input type="radio" name="options" id="opcao-4" />Montanhas</label>
+      </div>
+      <br>
+      <div class="div-textarea">
+        <label for="viagem">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?<br>
+          <textarea name="viagem" id="viagem" cols="30" rows="10" maxlength="500" id="text-area"></textarea>
+        </label>
+      <div class="div-age">
+        <label for="idade">Qual a melhor data para realizar a sua viagem? <br /><input type="date" name="idade" id="idade"/></label>
+      </div>
+
+      <div class="div-term">
+        <label for="termo-1"
+          >Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?<input type="checkbox" name="termo-1" id="termo-1" /></label><br />
+        <label for="termo-2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.<input type="checkbox" name="termo-2" id="termo-2" required/></label>
+      </div>
+
+      <div id="div-btn">
+          <button type="submit" id="btn-send">Enviar</button>
+          <button type="reset" id="btn-erase">Apagar</button>
+      </div>
+
+    </form>
+    <script src="script1.js"></script>
+  </body>
+</html>
