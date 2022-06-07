@@ -41,12 +41,22 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 4-1 - Javascript - Primeiros passos
 
-- [x] 4-2 Array e loop For
+- [x] 4-2 - Array e loop For
 
-- [ ] 4-3 Lógica de programaçãoe e Algoritmos
+- [x] 4-3 - Lógica de programaçãoe e Algoritmos
 
-- [ ] 4-4 Objetos e funções
+- [x] 4-4 - Objetos e funções
 
-- [ ] 4-5 Projeto Playground Functions
+- [x] 4-5 - Projeto Playground Functions
+
+#### Bloco 5: Javascript e lógica de programação
+
+- [x] 5-1 - JavaScript - DOM e seletores
+
+- [x] 5-2 - JavaScript - Trabalhando com elementos
+
+- [x] 5-3 - JavaScript - Eventos
+
+- [x] 5-4 - JavaScript - Web Storage
 
 
