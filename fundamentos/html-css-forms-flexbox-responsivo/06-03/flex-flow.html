@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Flex Flow</title>
+    <style>
+      .box {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 30%;
+      }
+
+      .box-container {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+
+        /* flex-flow: column wrap-reverse; deixa o elemento em colunas alinhado a direita */
+
+        /* flex-flow: column wrap; Coloca os elemenmtos em coluna alinhados a esquerda, 
+        o flex-wrap não faz diferença */
+
+        /* flex-flow: column nowrap; mesmo do column, mas não passa para a próxima linha 
+        excedendo o tamanho do pai. */
+
+        /* flex-flow: row nowrap; Ajusta lado a lado de uma linha sem quebra, ajusta o 
+        tamanho do elemento, mas não passa para a próxima linha excedendo o tamanho do pai. */
+
+        /* flex-flow: row wrap; ajusta os elementos lado a lado, mas caso exceda o 
+        container, ele quebra a linha para a próxima. */
+
+        /* flex-flow: row wrap-reverse; Mesmo movimento do row wrap, porém ao quebrar, ela vai 
+        pra cima e não para baixo. */
+
+        /* flex-flow: column-reverse nowrap/wrap/wrapreserve; Mesmo elemento do column wrap, mas os elementos 
+        dentro do container pelos invertidos, o último é o primeiro e assim sussesivamente. Ajusta o 
+        tamanho do elemento, mas não passa para a próxima linha excedendo o tamanho do pai. O 
+        nowrap e o wrap não fazem diferença em relação ao conteúdo das divs, mas apenas a elas 
+        próprias e como elas estão em colunas, esse tipo de alinhamento não faz diferença visual.*/
+
+        /* flex-flow: row-reverse nowrap; Mesmo efeito do row no nowrap, porém os 
+        elementos estão invertidos */
+
+        /* flex-flow: row-reverse wrap; Mesmo movimento do row wrap, mas alinha a direita. 
+        Ao quebrar a linha, ela vai pra cima e não para baixo */
+        /* flex-flow: row-reverse wrap-reverse; Alinhados a direita, quebra de linha dentro do 
+        tamanho da div. Porém escrever da direita para esquerda e quando quebra a linha, ela sobe. */
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>
