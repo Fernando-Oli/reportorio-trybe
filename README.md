@@ -59,4 +59,31 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 5-4 - JavaScript - Web Storage
 
+#### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+
+- [x] 6-1 - HTML & CSS - Forms
+
+- [x] 6-2 - Bibliotecas JavaScript e Frameworks CSS
+
+- [x] 6-3 - Introdução - CSS Flexbox
+
+- [x] 6-4 - CSS Flexbox - Parte 2
+
+- [x] 6-5 - CSS Responsivo - Mobile First
+
+#### Bloco 7: HTML e CSS: Forms, Flexbox e Responsivo
+
+- [x] 7-1 - JavaScript ES6 - let, const, arrow functions e template literals
+
+- [x] 7-2 - JavaScript ES6 - Fluxo de exceção e Objetos
+
+- [x] 7-3 - JavaScript ES6 - Primeiros passos em Jest
+
+
+
+
+
+
+
+
 
