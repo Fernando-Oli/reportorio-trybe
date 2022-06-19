@@ -47,7 +47,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 4-4 - Objetos e funções
 
-- [x] 4-5 - Projeto Playground Functions
+- [x] 4-5 - [Projeto Lessons Learned]()
 
 #### Bloco 5: Javascript e lógica de programação
 
