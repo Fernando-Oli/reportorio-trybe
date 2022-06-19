@@ -49,7 +49,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 4-5 - [Projeto Lessons Learned]()
 
-#### Bloco 5: Javascript e lógica de programação
+#### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
 - [x] 5-1 - JavaScript - DOM e seletores
 
