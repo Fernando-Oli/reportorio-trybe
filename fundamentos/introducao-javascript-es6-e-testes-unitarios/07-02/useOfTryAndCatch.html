@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <p>Informe dois números para realizar a soma:</p>
+    <label for="value1">Valor 1:</label>
+    <input type="text" id="value1" />
+    <label for="value2">Valor 2:</label>
+    <input type="text" id="value2" />
+    <button id="button">Somar</button>
+    <p id="result"></p>
+    <script>
+      const input1 = document.getElementById("value1");
+      const input2 = document.getElementById("value2");
+      const btn = document.getElementById("button");
+      const result = document.getElementById("result");
+
+      const verifyTwoInput = () => {
+        if (input1.value === "" || input2.value === "") {
+          throw new Error("Os dois inputs devem ser preenchidos.");
+        }
+      };
+
+      const verifyNumber = () => {
+        const numero = parseInt(input1.value);
+        const numero3 = parseInt(input2.value);
+        const resultado = numero + numero3;
+        if (isNaN(resultado)) {
+          throw new Error("Para soma, precisa-se de dois valores númericos.");
+        }
+      };
+
+      const soma = () => {
+        try {
+          verifyTwoInput();
+          verifyNumber();
+          const numero1 = parseInt(input1.value);
+          const numero2 = parseInt(input2.value);
+          result.innerText = `Resultado = ${numero1 + numero2}`;
+        } catch (error) {
+          result.innerText = error.message;
+        } finally {
+          input1.value = "";
+          input2.value = "";
+        }
+      };
+      btn.addEventListener("click", soma);
+    </script>
+  </body>
+</html>
