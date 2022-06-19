@@ -35,7 +35,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 3-4 - HTML Semântico
 
-- [x] 3-5 - Projeto Lessons Learned
+- [x] 3-5 - [Projeto Lessons Learned](https://github.com/Fernando-Oli/Lessons-Learned)
 
 #### Bloco 4: Javascript e lógica de programação
 
