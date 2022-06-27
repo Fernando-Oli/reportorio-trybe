@@ -69,16 +69,16 @@ const books = [
     // escreva seu código aqui
     let resultado = '';
     let ponto = 0;
-    arr.forEach((element)=> {
+    arr.forEach((element, index)=> {
         const splitName = element.author.name.split('')
+        if (ponto >= 3) {
+          resultado = arr[index-1].name;
+      } 
         ponto = 0;
         splitName.forEach((e) => {
             if (e === '.') {
                 ponto += 1;
             }
-            if (ponto >= 3) {
-                resultado = element.name;
-            } 
         })
         });
     return resultado;

@@ -1,5 +1,3 @@
-//🚀 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
-
 const books = [
     {
       id: 1,
@@ -62,28 +60,30 @@ const books = [
       releaseYear: 1928,
     },
   ];
+  
+  // Adicione o código do exercício aqui:
 
-const expectedResult = [
-    'O Senhor dos Anéis',
-    'Fundação',
-    'O Chamado de Cthulhu',
-  ];
+//2 - Crie uma string com os nomes de todas as pessoas autoras
+const createStringAuthorNames = () => books.reduce((acc, curr) => acc += ` ${curr.author.name},`,'');
+resultado = `${createStringAuthorNames()}`;
+console.log(resultado);
 
-function oldBooks() {
+// 🚀 3- Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+
+const expectedResult = 43;
+
+function averageAge(arr) {
+  
+    const a = arr.map((e) => ( e.releaseYear - e.author.birthYear)).reduce((acc, curr) => acc += curr);
+    return a / arr.length
+}
+console.log(averageAge(books))
+
+// 🚀 4- Encontre o livro com o maior nome.
+
+
+  function longestNamedBook() {
     // escreva seu código aqui
-    const expectedResult = [
-  'O Senhor dos Anéis',
-  'Fundação',
-  'O Chamado de Cthulhu',
-];
-}
-function oldBooks(arr) {
-  // escreva seu código aqui
-  const array = [];
-  arr.filter((e) => {
-    if (2022 - e.releaseYear > 60) { array.push(e.name); }});
-    return array;
-}
-
-
-console.log(oldBooks(books));
+    return books.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : curr)
+  }
+console.log(longestNamedBook())
