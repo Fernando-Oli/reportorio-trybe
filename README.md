@@ -59,6 +59,8 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 5-4 - JavaScript - Web Storage
 
+- [x] 5-5 - [Projeto Lessons Learned]()
+
 #### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
 - [x] 6-1 - HTML & CSS - Forms
@@ -71,6 +73,8 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 6-5 - CSS Responsivo - Mobile First
 
+- [x] 6-6 - [Projeto Lessons Learned]()
+
 #### Bloco 7: HTML e CSS: Forms, Flexbox e Responsivo
 
 - [x] 7-1 - JavaScript ES6 - let, const, arrow functions e template literals
@@ -78,6 +82,22 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 - [x] 7-2 - JavaScript ES6 - Fluxo de exceção e Objetos
 
 - [x] 7-3 - JavaScript ES6 - Primeiros passos em Jest
+
+- [x] 7-4 - [Projeto Lessons Learned]()
+
+#### Bloco 8 Higher Order Functions do JavaScript ES6
+
+- [x] 8-1 - JavaScript ES6 - Introdução a Higher Order Functionss
+
+- [x] 8-2 - JavaScript ES6 - forEach, find, some, every, sort
+
+- [x] 8-3 - JavaScript ES6 - map e filter
+
+- [x] 8-4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring.
+
+- [x] 8-5 - JavaScript ES6 - Mobile First
+
+- [x] 8-6 - [Projeto Lessons Learned]()
 
 
 
