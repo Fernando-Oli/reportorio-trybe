@@ -29,7 +29,7 @@ console.log(comida, animal, bebida); // arroz gato água
 // Utilizando array destructuring, faça com que os valores apareçam nas variáveis correspondentes ao seu verdadeiro tipo
 
 //Feito por mim
-const array1 = [bebida, comida, animal]
+// const array1 = [bebida, comida, animal]
 // [comida, animal, bebida] = [...array1] ou array1
 // //Por que nao funciona?
 [comida, animal, bebida] = [bebida, comida, animal]
