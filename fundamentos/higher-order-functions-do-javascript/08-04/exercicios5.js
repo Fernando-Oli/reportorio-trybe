@@ -6,14 +6,10 @@ const names = [
     'Abeladerco', 'Adieidy', 'Alarucha',
   ];
   
-  function containsA() {
-    // escreva seu código aqui
-    let contador = 0;
-    let array = '';
-    names.forEach((e) => array += (e.split(' ')));
-    const arr = array.split('');
-    arr.forEach((i) => i === 'a' || i === 'A' ? contador += 1 : contador +=0);
-    return contador
-  }
-
+  //com split
+  const containsA = () => names.reduce((acc, curr) => acc += curr.split('').reduce((acc, curr) => curr === 'A' || curr === 'a' ? acc += 1 : acc += 0 ,0),0);
   console.log(containsA());
+
+  //com spread
+  const containsB = () => names.reduce((acc, curr) => acc += [...curr].reduce((acc, curr) => curr === 'B' || curr === 'b' ? acc += 1 : acc += 0 ,0),0);
+  console.log(containsB());

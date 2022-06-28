@@ -5,10 +5,10 @@ const arrays = [
     [true],
     [4, 5, 6],
   ];
-  
+
   function flatten(arr) {
     // escreva seu código aqui
     return arr.reduce((acc, curr) => acc += curr);
   }
 
-  console.log(flatten(arrays))
+  console.log(flatten(arrays));
