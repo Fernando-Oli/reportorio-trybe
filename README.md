@@ -97,7 +97,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 8-5 - JavaScript ES6 - Mobile First
 
-- [x] 8-6 - [Projeto Lessons Learned]()
+- [x] 8-6 - [Zoo Functions](https://github.com/Fernando-Oli/zoo-functions)
 
 
 
