@@ -85,7 +85,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 7-4 - [Projeto Lessons Learned]()
 
-#### Bloco 8 [Higher Order Functions do JavaScript ES6](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/higher-order-functions-do-javascript)
+#### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/higher-order-functions-do-javascript)
 
 - [x] 8-1 - JavaScript ES6 - Introdução a Higher Order Functionss
 
