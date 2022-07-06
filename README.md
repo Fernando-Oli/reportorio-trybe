@@ -17,7 +17,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 1-4 Unix & Shell - Part 2
 
-#### Bloco 2: Git, Github e Internet
+#### Bloco 2: [Git, Github e Internet](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/git-github-e-internet)
 
 - [x] 2-1 - Criando repositório
 
@@ -25,7 +25,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 2-3 - Internet - Entendendo como ela funciona
 
-#### Bloco 3: Introddução a HTML & CSS
+#### Bloco 3: [Introddução a HTML & CSS](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/introducao-a-html-e-css)
 
 - [x] 3-1 - HTML & CSS - Estruturas de página
 
@@ -37,7 +37,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 3-5 - [Projeto Lessons Learned](https://github.com/Fernando-Oli/Lessons-Learned)
 
-#### Bloco 4: Javascript e lógica de programação
+#### Bloco 4: [Javascript e lógica de programação](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/js-logica-de-programacao)
 
 - [x] 4-1 - Javascript - Primeiros passos
 
@@ -49,7 +49,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 4-5 - [Projeto Lessons Learned]()
 
-#### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+#### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/javascript-dom-eventos-e-web-storage)
 
 - [x] 5-1 - JavaScript - DOM e seletores
 
@@ -61,7 +61,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 5-5 - [Projeto Lessons Learned]()
 
-#### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+#### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/html-css-forms-flexbox-responsivo)
 
 - [x] 6-1 - HTML & CSS - Forms
 
@@ -75,17 +75,17 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 6-6 - [Projeto Lessons Learned]()
 
-#### Bloco 7: HTML e CSS: Forms, Flexbox e Responsivo
+#### Bloco 7: [Javascript ES6 - Testes Unitários](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/html-css-forms-flexbox-responsivo)
 
-- [x] 7-1 - JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 7-1 - Let, const, arrow functions e template literals
 
-- [x] 7-2 - JavaScript ES6 - Fluxo de exceção e Objetos
+- [x] 7-2 - Fluxo de exceção e Objetos
 
-- [x] 7-3 - JavaScript ES6 - Primeiros passos em Jest
+- [x] 7-3 - Primeiros passos em Jest
 
 - [x] 7-4 - [Projeto Lessons Learned]()
 
-#### Bloco 8 Higher Order Functions do JavaScript ES6
+#### Bloco 8 [Higher Order Functions do JavaScript ES6](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/higher-order-functions-do-javascript)
 
 - [x] 8-1 - JavaScript ES6 - Introdução a Higher Order Functionss
 
