@@ -11,7 +11,7 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 ### Fundamentos do Desenvolvimento na Web :ballot_box_with_check:
 
-#### Bloco 1: Introdução – Unix & Shell
+#### Bloco 1: [Introdução – Unix & Shell](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/fundamentos/unix-e-shell)
 
 - [x] 1-3 Unix & Shell - Part 1
 
