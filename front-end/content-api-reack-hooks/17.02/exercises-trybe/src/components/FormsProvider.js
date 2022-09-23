@@ -1,28 +1,30 @@
 import Forms from "./Forms";
-import Header from './Header';
 import MyContext from "../context";
 import { useState} from 'react';
+import List from './List';
 
 function FormsProvider() {
-  const [ name, setName] = useState('');
-  const [ age, setAge] = useState(0);
-  const [ city, setCity] = useState('');
-  const [ modulo, setModulo] = useState('Fundamentos');
+  const [ students, setStudents] = useState([]);
+  const saveStudents = (event, name, age, city, module) => {
+    event.preventDefault();
+    const stuObj = {
+      name,
+      age,
+      city,
+      module,
+    }
+    const array = [...students, stuObj]
+    setStudents(array);
+  }
   const contextValue ={
-    name, 
-    setName,
-    age,
-    setAge,
-    city,
-    setCity,
-    modulo,
-    setModulo,
+    students,
+    saveStudents,
   }
   return (
     <div className="App">
       <MyContext.Provider value={ contextValue }>
-        <Header/>
         <Forms/>
+        <List/>
       </MyContext.Provider>
     </div>
   );

@@ -1,13 +1,14 @@
-import { useState} from 'react';
-
+import { useContext, useState} from 'react';
+import MyContext from '../context';
 function Forms() {
   const [ name, setName] = useState('');
   const [ age, setAge] = useState(0);
   const [ city, setCity] = useState('');
-  const [ modulo, setModulo] = useState(false);
+  const [ module, setModule] = useState(false);
   const handleChange = (e, setState) => {
     setState(e.value);
   }
+  const { saveStudents } = useContext(MyContext);
   return (
     <form>
     <label>
@@ -22,17 +23,17 @@ function Forms() {
       Cidade
       <input type="text" name="city" onChange={ (e) => handleChange(e.target, setCity) }/>
     </label>
-    <label onChange={ ({ target }) => setModulo(target.value) }>
-    <input type="radio" value="Fundamentos" name="modulo" />
+    <label onChange={ ({ target }) => setModule(target.value) }>
+    <input type="radio" value="Fundamentos" name="module" />
       Fundamentos
-      <input type="radio" value="Front-end" name="modulo"/>
+      <input type="radio" value="Front-end" name="module"/>
       Front-end
-      <input type="radio" value="Back-end" name="modulo"/>
+      <input type="radio" value="Back-end" name="module"/>
       Back-end
-      <input type="radio" value="Ciência da Computação" name="modulo"/>
+      <input type="radio" value="Ciência da Computação" name="module"/>
       Ciência da Computação
     </label>
-    <input type="submit" value="Submit" />
+    <input type="submit" value="Submit" onClick={ (e) => saveStudents(e, name, age, city, module) }/>
   </form>
   );
 }
