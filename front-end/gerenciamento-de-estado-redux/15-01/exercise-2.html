@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Trybe</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.js"></script>
+    <style>
+      body {
+        color: white;
+        background-color: #333;
+        font-family: sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div class="container">
+      <h1>Minha Aplicação</h1>
+      <p>Status: Você está <span id="status">Offline</span></p>
+      <button id="toggle-theme">Light Mode</button>
+      <button id="toggle-status">Ficar Online</button>
+    </div>
+    <script>
+      const THEME_INITIAL_STATE = {
+        theme: "dark",
+      };
+
+      const themeReducer = (state = THEME_INITIAL_STATE, action) => {
+        switch (action.type) {
+          case "light":
+            return {
+              theme: "dark",
+            };
+
+          case "dark": {
+            return {
+              theme: "light",
+            };
+          }
+          default:
+            return state;
+        }
+      };
+
+      const STATUS_INITIAL_STATE = {
+        status: "offline",
+      };
+
+      const statusReducer = (state = STATUS_INITIAL_STATE, action) => {
+        switch (action.type) {
+          case "online": {
+            return {
+                status: "offline",
+            }
+          }
+          case "offline": {
+            return {
+                status: "online",
+            }
+          }
+          default:
+            return state;
+        }
+      };
+      const reducerCombine = Redux.combineReducers({
+        themeReducer,
+        statusReducer,
+      });
+      changeStatus = (para) => ({
+        type: para,
+      });
+      const store = Redux.createStore(reducerCombine);
+      console.log(store.getState().themeReducer);
+      const themeButton = document.getElementById("toggle-theme");
+      const statusButton = document.getElementById("toggle-status");
+      const container = document.getElementById("container");
+      themeButton.addEventListener("click", () => {
+        // coloque o código aqui.
+        const { themeReducer } = store.getState();
+        console.log(themeReducer.theme);
+        store.dispatch(changeStatus(themeReducer.theme));
+      });
+
+      statusButton.addEventListener("click", () => {
+        // coloque o código aqui.
+        const { statusReducer } = store.getState();
+        store.dispatch(changeStatus(statusReducer.status));
+      });
+      store.subscribe(() => {
+        const { themeReducer, statusReducer } = store.getState();
+        console.log(themeReducer, statusReducer);
+        const body = document.getElementById('body');
+        if(themeReducer.theme === 'dark') {
+            body.style.background = '#333';
+            body.style.color = 'white';
+            themeButton.innerText = 'Light Mode';
+        }
+        if(themeReducer.theme === 'light') {
+            body.style.background = 'white';
+            body.style.color = '#333';
+            themeButton.innerText = 'Dark Mode';
+        }
+        const statusSpan = document.getElementById('status');
+        if(statusReducer.status === 'online') {
+            statusSpan.innerText = 'Online';
+            statusButton.innerText = 'Ficar Offline';
+        } else {
+            statusSpan.innerText = 'Offline';
+            statusButton.innerText = 'Ficar Online';
+        }
+      });
+    </script>
+  </body>
+</html>
