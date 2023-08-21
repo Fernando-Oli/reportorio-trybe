@@ -99,6 +99,10 @@ A Trybe é uma escola de tecnologia que está disposta a preparar, instruir, aco
 
 - [x] 8-6 - [Zoo Functions](https://github.com/Fernando-Oli/zoo-functions)
 
+### Front-End :ballot_box_with_check:
+
+#### Bloco 1: [Introdução ao Frontend e JavaScript assíncrono](https://github.com/Fernando-Oli/repositorio-trybe/tree/master/front-end/dev-front-end)
+
 
 
 
